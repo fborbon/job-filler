@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Briefcase body -->
+  <rect x="6" y="20" width="52" height="38" rx="5" fill="#3b82f6"/>
+  <!-- Briefcase handle -->
+  <path d="M22 20V15a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5" stroke="#1d4ed8" stroke-width="3" fill="none" stroke-linejoin="round"/>
+  <!-- Middle band -->
+  <rect x="6" y="35" width="52" height="5" fill="#2563eb"/>
+  <!-- Clasp -->
+  <rect x="28" y="33" width="8" height="8" rx="2" fill="white"/>
+  <!-- Form lines on briefcase -->
+  <rect x="14" y="27" width="12" height="2.5" rx="1.2" fill="white" opacity="0.6"/>
+  <rect x="30" y="27" width="20" height="2.5" rx="1.2" fill="white" opacity="0.6"/>
+  <rect x="14" y="44" width="16" height="2.5" rx="1.2" fill="white" opacity="0.6"/>
+  <rect x="34" y="44" width="16" height="2.5" rx="1.2" fill="white" opacity="0.6"/>
+  <rect x="14" y="50" width="22" height="2.5" rx="1.2" fill="white" opacity="0.6"/>
+</svg>

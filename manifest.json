@@ -1,0 +1,32 @@
+{
+  "manifest_version": 2,
+  "name": "Job Filler",
+  "version": "1.0.0",
+  "description": "Autofill job application forms — name, email, phone, location, LinkedIn, GitHub, resume and cover letter uploads.",
+  "icons": {
+    "48": "icons/icon.svg",
+    "96": "icons/icon.svg"
+  },
+  "browser_action": {
+    "default_icon": {
+      "48": "icons/icon.svg"
+    },
+    "default_title": "Job Filler"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content/autofill.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "background": {
+    "scripts": ["background/background.js"],
+    "persistent": false
+  },
+  "permissions": [
+    "storage",
+    "activeTab",
+    "tabs"
+  ]
+}
