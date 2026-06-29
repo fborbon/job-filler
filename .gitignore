@@ -2,3 +2,4 @@ dist/
 *.xpi
 *.zip
 node_modules/
+background/background.js
