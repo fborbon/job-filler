@@ -28,5 +28,11 @@
     "storage",
     "activeTab",
     "tabs"
-  ]
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "job-filler@fborbon",
+      "strict_min_version": "109.0"
+    }
+  }
 }
